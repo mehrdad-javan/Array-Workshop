@@ -23,7 +23,7 @@ public class NameRepository {
     //todo: PART 1
 
     /**
-     * Sets the names array to the provided array of names.
+     * Sets the names array to the provided array of names & it should replace all existing names.
      *
      * @param names The array of names to set.
      */
@@ -44,7 +44,7 @@ public class NameRepository {
     //todo: PART 1
 
     /**
-     * Retrieves a copy of the names array.
+     * Returns all names in a new array (Retrieves a copy of the names array).
      *
      * @return A new array containing all elements from the names array.
      */
