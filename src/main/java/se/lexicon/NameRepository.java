@@ -9,18 +9,16 @@ public class NameRepository {
     private static String[] names = new String[0];
 
 
-    //todo: PART 1
-
     /**
      * Retrieves the current size of the names array.
      *
      * @return The number of elements in the names array.
      */
     public static int getSize() {
+        //todo: PART 1: implement getSize method
         return 0;
     }
 
-    //todo: PART 1
 
     /**
      * Sets the names array to the provided array of names & it should replace all existing names.
@@ -28,20 +26,17 @@ public class NameRepository {
      * @param names The array of names to set.
      */
     public static void setNames(String[] names) {
-
-
+        //todo: PART 1: implement setNames method
     }
 
-    //todo: PART 1
 
     /**
      * Clears the names array by creating a new empty array.
      */
     public static void clear() {
-
+        //todo: PART 1: implement clear method
     }
 
-    //todo: PART 1
 
     /**
      * Returns all names in a new array (Retrieves a copy of the names array).
@@ -49,11 +44,10 @@ public class NameRepository {
      * @return A new array containing all elements from the names array.
      */
     public static String[] findAll() {
+        //todo: PART 1: implement findAll method
         return null;
     }
 
-
-    //todo: PART 2
 
     /**
      * Finds a name that matches the given fullName case-insensitively.
@@ -62,10 +56,10 @@ public class NameRepository {
      * @return The matching name if found; otherwise, null.
      */
     public static String find(String fullName) {
+        //todo: PART 2: implement find method
         return null;
     }
 
-    //todo: PART 2
 
     /**
      * Adds a new fullName to the names array if it doesn't already exist.
@@ -74,11 +68,10 @@ public class NameRepository {
      * @return True if the fullName is added successfully; false if it already exists.
      */
     public static boolean add(String fullName) {
+        //todo: PART 2: implement add method
         return false;
     }
 
-
-    //todo: PART 3
 
     /**
      * Find all names that match the given firstName.
@@ -87,10 +80,10 @@ public class NameRepository {
      * @return An array containing all matching names.
      */
     public static String[] findByFirstName(String firstName) {
+        //todo: PART 3: findByFirstName method
         return null;
     }
 
-    //todo: PART 3
 
     /**
      * Find all names that match the given lastName.
@@ -99,11 +92,10 @@ public class NameRepository {
      * @return An array containing all matching names.
      */
     public static String[] findByLastName(String lastName) {
+        //todo: PART 3: implement findByLastName method
         return null;
     }
 
-
-    //todo: PART 3
 
     /**
      * Updates a name in the names array from the original name to the updated name.
@@ -113,11 +105,10 @@ public class NameRepository {
      * @return True if the name is updated successfully; false if the updated name already exists or the original name is not found.
      */
     public static boolean update(String original, String updatedName) {
+        //todo: PART 3: implement update method
         return false;
     }
 
-
-    //todo: PART 4
 
     /**
      * Removes a name from the names array, case-insensitively.
@@ -126,6 +117,7 @@ public class NameRepository {
      * @return True if the name is removed successfully; false if the name is not found in the array.
      */
     public static boolean remove(String fullName) {
+        //todo: PART 4: implement remove method
         return false;
     }
 
